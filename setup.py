@@ -46,7 +46,7 @@ libs = {
         '8.0' : [ 'mosek64_8_0.dll','mosekxx8_0.dll', 'mosekscopt8_0.dll', 'libiomp5md.dll','cilkrts20.dll' ],
         '8.1' : [ 'mosek64_8_1.dll','mosekxx8_1.dll', 'mosekscopt8_1.dll', 'libiomp5md.dll','cilkrts20.dll' ],
         },
-    'win34x86' : {
+    'win32x86' : {
         '7.0' : [ 'mosek7_0.dll','mosekxx7_0.dll', 'mosekscopt7_0.dll', 'libiomp5md.dll' ],
         '7.1' : [ 'mosek7_1.dll','mosekxx7_1.dll', 'mosekscopt7_1.dll', 'libiomp5md.dll' ],
         '8.0' : [ 'mosek8_0.dll','mosekxx8_0.dll', 'mosekscopt8_0.dll', 'libiomp5md.dll','cilkrts20.dll' ],
@@ -79,7 +79,7 @@ licensepdfd = {
 
 pkgnames = {
     'win64x86'   : 'mosektoolswin64x86.zip',
-    'win34x86'   : 'mosektoolswin32x86.zip',
+    'win32x86'   : 'mosektoolswin32x86.zip',
     'linux64x86' : 'mosektoolslinux64x86.tar.bz2',
     'linux32x86' : 'mosektoolslinux32x86.tar.bz2',
     'osx64x86'   : 'mosektoolsosx64x86.tar.bz2' }
